@@ -1,0 +1,12 @@
+#bodyHome {
+  background-color: rgb(32, 33, 36);
+  padding: 1rem;
+  /* height: 825px; */
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+}

@@ -1,0 +1,30 @@
+#numbersContainer {
+  background-color: rgb(32, 33, 36);
+  height: 2rem;
+  width: 3rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#numbers:hover {
+  cursor: pointer;
+  background-color: rgb(253, 253, 5);
+}
+
+#numbers {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+
+  background-color: azure;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

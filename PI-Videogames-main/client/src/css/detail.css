@@ -1,0 +1,114 @@
+#detailComponentMainContainer {
+  margin: 0px;
+  padding: 0px;
+}
+#detailComponent {
+  background-color: rgb(38, 38, 38);
+  width: 100%;
+  height: 800px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#loadingImage {
+  width: 20%;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#detailMainContainer {
+  margin: 0px;
+  padding: 1rem;
+  height: 85vb;
+  background-color: rgb(38, 38, 38);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+#detailPicContainer {
+  background-color: rgb(22, 22, 22);
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#detailDataContainer {
+  background-color: rgb(22, 22, 22);
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.datailDataBox {
+  width: 85%;
+  height: 3rem;
+  padding: 0px 15px 0px 15px;
+  font-weight: 700;
+  background-color: azure;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#dataId {
+  font-size: 15px;
+}
+
+#detailName {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+span {
+  color: rgb(242, 171, 38);
+  margin-right: 5px;
+}
+
+#detailDescription {
+  width: 85%;
+  height: 18rem;
+  padding: 1rem;
+  background-color: azure;
+}
+
+#iconHomeContainer {
+  width: 89%;
+  height: 3rem;
+  background-color: rgb(22, 22, 22);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+#iconHome {
+  width: 100%;
+  height: 3rem;
+  color: rgb(255, 51, 50, 0);
+  text-decoration: none;
+  background-color: rgb(22, 22, 22);
+  background-image: url("../assets/iconHome/cc55f042-f85f-4864-856d-d68a7c2373fd.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
